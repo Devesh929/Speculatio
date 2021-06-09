@@ -1,7 +1,7 @@
 Flask==1.0.2
 
 pandas_datareader
-pandas==0.23.4
+pandas
 
 
 datetime
