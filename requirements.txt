@@ -11,7 +11,7 @@ itsdangerous==0.24
 Jinja2==2.10
 pandas_datareader
 
-pandas==0.23.4
+
 protobuf==3.6.1
 python-dateutil==2.7.3
 pytz==2018.5
@@ -20,3 +20,4 @@ datetime
 xlsxwriter
 Werkzeug==0.14.1
 wincertstore==0.2
+pandas
