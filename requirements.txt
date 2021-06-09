@@ -10,7 +10,7 @@ h5py==2.8.0
 itsdangerous==0.24
 Jinja2==2.10
 pandas_datareader
-MarkupSafe==1.0
+
 numpy==1.14.5
 pandas==0.23.4
 protobuf==3.6.1
