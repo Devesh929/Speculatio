@@ -15,7 +15,7 @@ pandas_datareader
 protobuf==3.6.1
 python-dateutil==2.7.3
 pytz==2018.5
-PyYAML==3.13
+
 datetime
 xlsxwriter
 Werkzeug==0.14.1
