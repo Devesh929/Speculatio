@@ -37,7 +37,7 @@ def download():
             buy=buy+1
     data = data.loc['2020-01-01':]
     data = data.iloc[::-1]
-    writer = pd.ExcelWriter("technical2.xlsx", 
+    writer = pd.ExcelWriter("REPORT.xlsx", 
                         engine='xlsxwriter', 
                         date_format = 'yyyy-mm-dd', 
                         datetime_format='yyyy-mm-dd')
