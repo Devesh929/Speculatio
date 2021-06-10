@@ -37,7 +37,8 @@ def download():
             buy=buy+1
     data = data.loc['2020-01-01':]
     data = data.iloc[::-1]
-    writer = pd.ExcelWriter("REPORT.xlsx", 
+    fi=first_name+"REPORT.xlsx"
+    writer = pd.ExcelWriter(fi, 
                         engine='xlsxwriter', 
                         date_format = 'yyyy-mm-dd', 
                         datetime_format='yyyy-mm-dd')
@@ -88,7 +89,7 @@ def download():
     # Insert the chart into the worksheet.
     worksheet.insert_chart('F2', chart1)
     writer.close()
-    file_path = 'REPORT.xlsx'
+    file_path = fi
     return send_file(
         file_path,
         mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
