@@ -88,7 +88,7 @@ def download():
     # Insert the chart into the worksheet.
     worksheet.insert_chart('F2', chart1)
     writer.close()
-    file_path = 'technical2.xlsx'
+    file_path = 'REPORT.xlsx'
     return send_file(
         file_path,
         mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
